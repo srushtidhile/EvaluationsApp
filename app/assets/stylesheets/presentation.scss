@@ -1,0 +1,102 @@
+// Place all the styles related to the Presentation controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$red: #dd0000;
+$blue: #337ab7;
+
+.pres-table {
+  border-collapse: collapse;
+  border: solid;
+  border-width: 1px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  td {
+    padding: 1rem;
+  }
+  td:nth-child(even) {
+    text-align: middle;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  th {
+    padding: 1rem 10rem;
+    padding-left: 1rem;
+    background-color: $blue;
+    color: white;
+    text-align: left;
+  }
+}
+
+.bottom-btn-grid {
+  padding: 3ex 1em 3ex 13em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottom-btn-grid-right {
+  justify-self: end;
+  padding-right: 12em;
+}
+
+//2nd grid for back button or back button and show button
+.bottom-btn-grid-two-btn {
+  padding: 0ex 1em 0ex 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 8fr;
+}
+
+.bottom-btn-grid-two-right {
+  justify-self: end;
+  padding-right: 12em;
+}
+
+
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table .absorbing-column {
+  width: 100%;
+}
+
+.feedback-average{
+  font-size: large;
+  margin-left: 13rem;
+}
+
+#average{
+  margin-left: 0;
+  font-weight: bold;
+}
+.pres-name {
+  margin-left: 10%;
+}
+.forms-style {
+  width: 50vw;
+  height: fit-content;
+  border-radius: 1rem;
+  text-align: left;
+  font-size: larger;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.forms-style h6 {
+  color: black;
+
+}
+
+.forms-style .actions {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.forms-style .text-field {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}

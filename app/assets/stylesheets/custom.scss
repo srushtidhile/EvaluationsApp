@@ -1,0 +1,79 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+$light-grey: #777;
+$medium-light-grey: #eaeaea;
+$white: #fff;
+$grey: #555;
+$dark-grey: #222;
+
+/* universal */
+
+body {
+  padding-top: 5ex; /* separate main text from nav bar */
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1{
+  margin-bottom: 2ex;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-top: 2ex;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+nav {
+  font-size: 1em;
+  padding: 1px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+}
+
+/* footer */
+footer {
+  margin-top: 0px;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-top: 1px solid $medium-light-grey;
+  color: $light-grey;
+  height: 5rex;
+}
+
+.full-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  margin-top: 0px;
+}
+.bottom-container{
+  align-self: end;
+}
+
+

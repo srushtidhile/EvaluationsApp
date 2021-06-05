@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment: great
+  grade: 5
+  student: one
+  presentation: one
+
+two:
+  comment: good
+  grade: 4
+  student: two
+  presentation: two

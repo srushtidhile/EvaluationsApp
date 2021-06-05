@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fname: Patrick
+  lname: Sheeran
+  email: ptsheeran@gmail.com
+
+two:
+  fname: Natalie
+  lname: Chen
+  email: chen.8290@osu.edu
+
+three:
+  fname: Jacob
+  lname: Slivka
+  email: slivka.30@osu.edu
+
+four:
+  fname: Srushti
+  lname: Dhile
+  email: Dhile.1@osu.edu
